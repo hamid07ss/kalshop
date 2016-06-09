@@ -113,7 +113,8 @@ function remove_pro(e) {
             type: 'post',
             url: "functions.php?f=remove&p_id=" + id,
             success: function (res) {
-                $(e).remove();
+                if(res == "ok")
+                    $(e).remove();
             }
         });
     }

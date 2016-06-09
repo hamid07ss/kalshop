@@ -1,5 +1,5 @@
 <?php
-    include("config.php");
+    include_once("config.php");
 
     if(function_exists($_GET['f'])) {
         $_GET['f']();
@@ -11,7 +11,12 @@
 
         $query = "DELETE FROM product WHERE id=$p_id";
 
-        mysqli_query($conn,$query) or die (mysqli_error($conn));
+
+        if (isset($conn)) {
+            $stmt = $conn->query($query);
+            $stmt->execute();
+        }
+        echo 'ok';
     }
 
     function edit(){
@@ -51,11 +56,16 @@
         }
 
         $p_pic = $target_file;
-        
-        $query = "UPDATE product set `p_n`='$p_n',`p_des`='$p_des',`p_pr`=$p_pr,`p_pold`=$p_pold,`p_pic`='$p_pic' where id='$p_id'";
+        $sql = "UPDATE product set `p_n`='$p_n',`p_des`='$p_des',`p_pr`=$p_pr,`p_pold`=$p_pold,`p_pic`='$p_pic' where id='$p_id'";
 
-        mysqli_query($conn,$query) or die (mysqli_error($conn));
+        if (isset($conn)) {
+            $stmt = $conn->query($sql);
+        }
 
+        // execute the query
+        $stmt->execute();
+
+        // echo a message to say the UPDATE succeeded
         echo "\nupdate success";
         //}
     }
@@ -91,7 +101,9 @@
         $p_pic = $target_file;
         $query = "insert into product (`p_n`,`p_des`,`p_pr`,`p_pold`,`p_pic`) values('$p_n', '$p_des', $p_pr, $p_pold, '$p_pic')";
 
-        mysqli_query($conn,$query) or die (mysqli_error($conn));
+        if (isset($conn)) {
+            $stmt = $conn->query($query);
+        }
 
         echo "\ninsert success";
         //}
@@ -105,8 +117,11 @@
         $rep = false;
 
         $query = "select ut from users where un='$un'";
-        $resualt = mysqli_query($conn,$query);
-        $row = mysqli_fetch_array($resualt);
+        if (isset($conn)) {
+            $stmt = $conn->query($query);
+        }
+        $stmt->execute();
+        $row = $stmt->fetchAll();
         if(count($row) > 0){
             if($row["ut"] == 0 || $row["ut"] == 1){
                 echo 'un';
@@ -115,8 +130,11 @@
         }
 
         $query = "select ut from users where ue='$ue'";
-        $resualt = mysqli_query($conn,$query);
-        $row = mysqli_fetch_array($resualt);
+        if (isset($conn)) {
+            $resualt = $conn->query($query);
+        }
+        $resualt->execute();
+        $row = $resualt->fetchAll();
         if(count($row) > 0){
             if($row["ut"] == 0 || $row["ut"] == 1){
                 echo 'ue';
@@ -126,7 +144,9 @@
 
         if($rep == false){
             $query = "insert into users (un, ue, up) values('$un', '$ue', '$up')";
-            mysqli_query($conn,$query) or die (mysqli_error($conn));
+            if (isset($conn)) {
+                $conn->query($query);
+            }
             echo 1;       
         }
     }
@@ -137,13 +157,17 @@
         $up = $_GET["up"];
 
         $query = "select ut from users where un='$un' and up='$up'";
-        $resualt = mysqli_query($conn,$query) or die (mysqli_error($conn));
-        $row = mysqli_fetch_array($resualt);
-        if($row["ut"] == 0){
+
+        if (isset($conn)) {
+            $resualt = $conn->query($query);
+        }
+        $resualt->execute();
+        $row = $resualt->fetchAll();
+        if($row[0]["ut"] == 0){
             echo 0;
         }
 
-        else if($row["ut"] == 1){
+        else if($row[0]["ut"] == 1){
             echo 1;
         }
     }

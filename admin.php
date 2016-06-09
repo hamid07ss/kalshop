@@ -56,7 +56,8 @@
             <?php
                 include("config.php");
                 $query = "SELECT * FROM users";
-                $resualt = mysqli_query($conn,$query);
+                $resualt = $conn->query($query);
+                $resualt->execute();
                 foreach($resualt as $rows){
                     ?> 
                     <div class="dis_in" id="user"><?php echo $rows["un"] ?></div>
@@ -99,7 +100,8 @@
                 <?php
                     include("config.php");
                     $query = "SELECT * FROM product";
-                    $resualt = mysqli_query($conn,$query);
+                    $resualt = $conn->query($query);
+                    $resualt->execute();
                     foreach($resualt as $rows){
                         ?> 
                     <div class="tab_body">

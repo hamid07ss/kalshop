@@ -1,5 +1,6 @@
 .config{
 	position: fixed;
+	display: none;
 	top: 50px;
 	left: -200px;
 	-webkit-transition: 0.3s ease;

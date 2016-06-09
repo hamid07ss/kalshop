@@ -56,7 +56,7 @@
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	    
+
 	    <!-- Customizable CSS -->
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/blue.css">
@@ -77,10 +77,10 @@
 
 	    <!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
-		
+
 		<!-- Icons/Glyphs -->
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-		
+
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="assets/images/favicon.ico">
 
@@ -91,23 +91,23 @@
 		<![endif]-->
 	</head>
 <body>
-	
+
 	<div class="wrapper">
 		<?php require MC_ROOT.'/parts/navigation/top-menu-bar.php'; ?>
-		<?php 
+		<?php
 			if($headerStyle == 1):
 				require MC_ROOT.'/parts/section/header.php';
 				require MC_ROOT.'/parts/breadcrumb/breadcrumb.php';
 			else:
 				require MC_ROOT.'/parts/section/header-2.php';
-			endif;			
+			endif;
 		?>
 		<?php require_once MC_ROOT.'/pages/'.$page.'.php'; ?>
 		<?php require MC_ROOT.'/parts/section/footer.php';?>
 	</div><!-- /.wrapper -->
 
 	<!-- For demo purposes – can be removed on production -->
-	
+
 	<div class="config open">
 		<div class="config-options">
 			<h4>Pages</h4>
@@ -118,7 +118,7 @@
 						<?php foreach ( $pages as $key => $packagePage ) : ?>
 						<li><a href="index.php?page=<?php echo $key;?>&amp;style=<?php echo $_GET['style'];?>"><?php echo $packagePage;?></a></li>
 						<?php endforeach; ?>
-					</ul>	
+					</ul>
 				</li>
 			</ul>
 			<h4>Header Styles</h4>
@@ -159,11 +159,11 @@
 	<script src="assets/js/scripts.js"></script>
 
 	<!-- For demo purposes – can be removed on production -->
-	
+
 	<script src="switchstylesheet/switchstylesheet.js"></script>
-	
+
 	<script>
-		$(document).ready(function(){ 
+		$(document).ready(function(){
 			$(".changecolor").switchstylesheet( { seperator:"color"} );
 			$('.show-theme-options').click(function(){
 				$(this).parent().toggleClass('open');

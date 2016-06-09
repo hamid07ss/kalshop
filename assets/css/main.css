@@ -6088,3 +6088,11 @@ div#in_res {
     text-align: left;
     padding: 11px;
 }
+th, td{
+    text-align: center;
+    border-left: 1px solid;
+}
+table {
+    margin: 0 auto;
+    direction: rtl;
+}
