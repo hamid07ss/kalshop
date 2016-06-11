@@ -1,6 +1,8 @@
 <!-- ================================== TOP NAVIGATION ================================== -->
 <div class="side-menu animate-dropdown">
-    <div class="head"><i class="fa fa-list"></i> all departments</div>        
+    <div class="head">
+<!--        <i class="fa fa-list"></i> -->
+        all departments</div>
     <nav class="yamm megamenu-horizontal" role="navigation">
         <ul class="nav">
             <li class="dropdown menu-item">

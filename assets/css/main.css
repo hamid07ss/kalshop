@@ -861,12 +861,22 @@ img[src="assets/images/blank.gif"] {
 /*===================================================================================*/
 .top-bar {
     background-color: #f9f9f9;
-    border-bottom: 1px solid #e0e0e0;
     padding: 10px 0 9px;
+    background: #f7f8fa;
+    border-bottom: 1px solid #e3e4e5;
+    box-shadow: 0 1px 2px rgba(0,0,0,.12);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.12);
+    -ms-box-shadow: 0 1px 2px rgba(0,0,0,.12);
+    -o-box-shadow: 0 1px 2px rgba(0,0,0,.12);
+    height: 40px;
+    min-width: 980px;
+    margin-bottom: 10px;
 }
 
     .top-bar ul {
         list-style: none;
+        direction: rtl;
     }
 
         .top-bar ul.right {
@@ -902,19 +912,20 @@ img[src="assets/images/blank.gif"] {
                         border: none;
                     }
 
-            .top-bar ul > li:first-child a {
-                padding: 0 16px 0 0;
+            .top-bar ul > li:last-child a {
+                padding: 0 16px 0 0px;
             }
 
-            .top-bar ul > li:last-child a {
+            .top-bar ul > li:first-child a {
                 border: none;
+                padding-right: 0;
             }
 
             .top-bar ul > li a {
                 padding: 0 13px;
                 border-right: 1px solid #e0e0e0;
                 color: #3d3d3d;
-                font-size: 13px;
+                font-size: 12px;
                 line-height: 15px;
                 display: inline-block;
                 text-transform: capitalize;
@@ -923,7 +934,7 @@ img[src="assets/images/blank.gif"] {
 /*  Header
 /*===================================================================================*/
 header {
-    padding: 40px 0 31px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -938,11 +949,13 @@ header {
 
     header .top-search-holder {
         margin: 0 0 0 -20px;
+        float: right;
     }
 
         header .top-search-holder .contact-row {
             font-size: 14px;
             line-height: 20px;
+            text-align: right;
         }
 
             header .top-search-holder .contact-row .phone {
@@ -957,7 +970,7 @@ header {
             }
 
         header .top-search-holder .search-area {
-            border: 3px solid #c6c6c6;
+
             border-radius: 7px;
             margin: 8px 0 0 0;
         }
@@ -1008,26 +1021,32 @@ header {
                 float: right;
                 display: inline-block;
                 text-align: center;
-                padding: 15px 15px 13px 15px;
+                padding: 6px 12px;
                 margin: -3px -3px 0 0;
-                border-radius: 0 5px 5px 0;
+                border-radius: 3px 0 0 3px;
+                position: absolute;
+                top: 3px;
+                height: 98%;
+                background: #9da3b1 !important;
             }
 
                 header .top-search-holder .search-area .search-button:hover {
-                    background-color: #939393;
+                    background-color: #8a8f9c !important;
                 }
 
                 header .top-search-holder .search-area .search-button:after {
                     content: "\f002";
                     font-family: fontawesome;
-                    font-size: 25px;
+                    font-size: 18px;
                     line-height: 25px;
-                    vertical-align: sub;
                     color: #fff;
                 }
 
     header .top-cart-row {
-        padding: 35px 0 0 21px;
+        /*padding: 35px 0 0 21px;*/
+        float: right;
+        display: inline-block;
+        margin: 8px 0 0 15px;
     }
 
         header .top-cart-row .wishlist-compare-holder {
@@ -1167,12 +1186,14 @@ header {
     padding: 0;
     margin: 0;
     width: 21.5% !important;
+    float: right;
+    text-align: right;
 }
 
     .sidemenu-holder .side-menu .head {
-        padding: 17px;
+        padding: 7px 15px;
         color: #fff;
-        border-radius: 5px 5px 0 0;
+        border-radius: 3px 3px 0 0;
         text-transform: capitalize;
         font-weight: bold;
         font-size: 16px;
@@ -1263,8 +1284,9 @@ header {
                     }
 
             .sidemenu-holder .side-menu nav .nav > li a {
-                padding: 12px 17px;
-                line-height: 17px;
+                padding: 7px;
+                line-height: 13px !important;
+                font-size: 13px;
             }
 
             .sidemenu-holder .side-menu nav .nav > li:nth-child(2n+1) {
@@ -1272,7 +1294,7 @@ header {
             }
 
             .sidemenu-holder .side-menu nav .nav > li:nth-child(2n) {
-                background-color: #f9f9f9;
+                /*background-color: #f9f9f9;*/
             }
 /*===================================================================================*/
 /*  Megamenu
@@ -1377,7 +1399,7 @@ header {
 
         .megamenu-horizontal .nav > li > a:focus,
         .megamenu-horizontal .nav > li > a:hover {
-            color: #fff;
+            color: #ff5252;
         }
 
             .megamenu-horizontal .nav > li > a:focus:after,
@@ -1394,11 +1416,11 @@ header {
         -moz-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
-        content: "\f105";
+        content: "\f104";
         line-height: 18px;
         opacity: 0;
-        color: #fff;
-        float: right;
+        color: #ff5252;
+        float: left;
         font-size: 20px;
         height: 20px;
         width: 20px;
@@ -1410,7 +1432,7 @@ header {
 .megamenu-horizontal .dropdown:hover .dropdown-toggle,
 .megamenu-horizontal .dropdown.open .dropdown-toggle,
 .megamenu-horizontal .dropdown:focus .dropdown-toggle {
-    color: #fff;
+    color: #ff5252;
 }
 
     .megamenu-horizontal .dropdown:hover .dropdown-toggle:after,
@@ -2167,12 +2189,12 @@ header {
     .dropdown .dropdown-toggle:after {
         content: "\f107";
         font-family: fontawesome;
-        color: #e0e0e0;
+        color: #a7a7a7;
         display: inline-block;
         font-size: 15px;
         line-height: 15px;
         vertical-align: sub;
-        margin: 0 0 0 3px;
+        margin: 0 10px 0 0px;
     }
 
 .dropdown .dropdown-menu {
@@ -3351,7 +3373,8 @@ header {
     padding: 0;
     margin: 0;
     width: 78.5% !important;
-    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
 }
 
 .homebanner-slider {
@@ -6095,4 +6118,194 @@ th, td{
 table {
     margin: 0 auto;
     direction: rtl;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(fonts/webyekan.woff);
+}
+*{
+    font-family: yekan !important;
+}
+
+ul.left{
+    text-align: left;
+}
+
+
+
+header .cart-box {
+    float: right;
+    height: 38px;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.header .cart-box .button-container {
+    margin: 0!important;
+    box-shadow: 1px 1px 2px #ddd!important;
+    -moz-box-shadow: 0 1px 2px #ddd!important;
+    -webkit-box-shadow: 0 1px 2px #ddd!important;
+    -ms-box-shadow: 0 1px 2px #ddd!important;
+    -o-box-shadow: 0 1px 2px #ddd!important;
+    width: 190px!important;
+}
+
+.button-container {
+    display: inline-block;
+    line-height: 0;
+    width: 100%;
+    min-height: 38px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+    -ms-box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+
+
+.button-container .button.green, .button-container .button.green i.button-icon {
+    background-color: #62b965;
+}
+
+.button-container .button.green .button-label {
+    background-color: #4caf50;
+}
+
+.button-container .button, .button-container .button i.button-icon {
+    background-color: #ccc;
+}
+
+.button-container .button i.button-icon.button-icon-cart {
+    background-position: -196px -413px;
+}
+
+.button-container.hasIcon .button i.button-icon {
+    display: block;
+    float: right;
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    width: 54px;
+    border-radius: 0 3px 3px 0;
+    z-index: 1;
+}
+.button-container.hasIcon .button-label {
+    margin-right: 54px;
+}
+.button-container .button-label {
+    margin-right: 0;
+    padding: 0 25px 0 0;
+    font-size: 13px;
+}
+.button-container .button i.button-icon {
+    background: url("../images/slices.png") no-repeat;
+}
+
+.button-container .button div, .button-container .button span, .button-container .button i {
+    position: relative;
+    display: block;
+}
+.button-container .button-label .button-labelname {
+    display: block;
+    font-family: yekan;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+
+header .cart-box .button-labelname {
+    float: right;
+}
+
+header .cart-box .order-count {
+    font-family: arial;
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin: 7px 7px 0 0;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5fbf63;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+}
+
+header .top-search-holder .search-area .search-field {
+    font: normal 13px yekan;
+    height: 34px;
+    border: 1px solid #c9d1d7;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    height: 38px;
+    color: #4a4a4a;
+    z-index: 10;
+    padding: 0 5px 2px 30px;
+    width: 100%;
+    text-align: right;
+}
+
+header .top-search-holder .search-area .categories-filter{
+    display: none;
+}
+.control-group {
+    position: relative;
+}
+.contact-row {
+    float: right;
+    direction: rtl;
+    font-size: 12px;
+}
+
+.search_cart{
+    position: relative;
+    clear: right;
+    padding-top: 10px;
+}
+.phone, .contact {
+    direction: rtl;
+    margin-left: 10px;
+}
+
+.container{
+    padding: 0;
+}
+
+.login-icon{
+    background: url("../images/slices.png") no-repeat;
+    background-position: -309px -31px!important;
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    box-sizing: content-box;
+}
+
+.register-icon{
+    background-position: -276px -33px !important;
+    background: url("../images/slices.png") no-repeat;
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    box-sizing: content-box;
+}
+
+.well-icon{
+    background-position: -720px -31px !important;
+    background: url("../images/slices.png") no-repeat;
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    box-sizing: content-box;
 }

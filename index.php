@@ -22,22 +22,22 @@
 	$headerStyle = ($_GET['style'] == 'alt') ? 2 : 1;
 
 	$pages = array(
-		'home' => 'Home',
+		'home' => 'صفحه اصلی',
 		'home-2' => 'Home Alt',
-		'category-grid' => 'Category - Grid/List',
-		'category-grid-2' => 'Category 2 - Grid/List',
-		'single-product' => 'Single Product',
+		'category-grid' => 'دسته بندی - Grid/List',
+		'category-grid-2' => 'دسته بندی 2 - Grid/List',
+		'single-product' => 'یک محصول',
 		'single-product-sidebar' => 'Single Product with Sidebar',
-		'cart' => 'Shopping Cart',
-		'checkout' => 'Checkout',
-		'about' => 'About Us',
-		'contact' => 'Contact Us',
-		'blog' => 'Blog',
-		'blog-fullwidth' => 'Blog Full Width',
-		'blog-post' => 'Blog Post',
-		'faq' => 'FAQ',
-		'terms' => 'Terms & Conditions',
-		'authentication' => 'Login/Register'
+		'cart' => 'سبد خرید',
+		'checkout' => 'بررسی',
+		'about' => 'درباره ما',
+		'contact' => 'تماس با ما',
+		'blog' => 'بلاگ',
+		'blog-fullwidth' => 'بلاگ تمام صفحه',
+		'blog-post' => 'بلاگ پست',
+		'faq' => 'پرسش و پاسخ',
+		'terms' => 'شرایط',
+		'authentication' => 'ورود/ثبت نام'
 	);
 ?>
 <!DOCTYPE html>
@@ -59,7 +59,7 @@
 
 	    <!-- Customizable CSS -->
 	    <link rel="stylesheet" href="assets/css/main.css">
-	    <link rel="stylesheet" href="assets/css/blue.css">
+	    <link rel="stylesheet" href="assets/css/green.css">
 	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/owl.transitions.css">
 		<link rel="stylesheet" href="assets/css/animate.min.css">
@@ -93,7 +93,6 @@
 <body>
 
 	<div class="wrapper">
-		<?php require MC_ROOT.'/parts/navigation/top-menu-bar.php'; ?>
 		<?php
 			if($headerStyle == 1):
 				require MC_ROOT.'/parts/section/header.php';
@@ -102,6 +101,7 @@
 				require MC_ROOT.'/parts/section/header-2.php';
 			endif;
 		?>
+		<?php require MC_ROOT.'/parts/navigation/top-menu-bar.php'; ?>
 		<?php require_once MC_ROOT.'/pages/'.$page.'.php'; ?>
 		<?php require MC_ROOT.'/parts/section/footer.php';?>
 	</div><!-- /.wrapper -->

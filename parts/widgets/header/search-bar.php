@@ -1,16 +1,8 @@
-<div class="contact-row">
-    <div class="phone inline">
-        <i class="fa fa-phone"></i> (+800) 123 456 7890
-    </div>
-    <div class="contact inline">
-        <i class="fa fa-envelope"></i> contact@<span class="le-color">oursupport.com</span>
-    </div>
-</div><!-- /.contact-row -->
 <!-- ============================================================= SEARCH AREA ============================================================= -->
 <div class="search-area">
     <form>
         <div class="control-group">
-            <input class="search-field" placeholder="Search for item" />
+            <input class="search-field" placeholder="کلمات کلیدی را وارد کنید" />
 
             <ul class="categories-filter animate-dropdown">
                 <li class="dropdown">
