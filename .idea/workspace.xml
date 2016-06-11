@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ce8d08b-f275-49ee-bed3-eb0309876b43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/green.css" afterPath="$PROJECT_DIR$/assets/css/green.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/scripts.js" afterPath="$PROJECT_DIR$/assets/js/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/navigation/sidemenu.php" afterPath="$PROJECT_DIR$/parts/navigation/sidemenu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/navigation/top-menu-bar.php" afterPath="$PROJECT_DIR$/parts/navigation/top-menu-bar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/section/header.php" afterPath="$PROJECT_DIR$/parts/section/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/widgets/header/logo.php" afterPath="$PROJECT_DIR$/parts/widgets/header/logo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/widgets/header/search-bar.php" afterPath="$PROJECT_DIR$/parts/widgets/header/search-bar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/widgets/header/shopping-cart-dropdown.php" afterPath="$PROJECT_DIR$/parts/widgets/header/shopping-cart-dropdown.php" />
     </list>
     <ignored path="kalshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,12 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/config.css">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="134">
+              <caret line="203" column="24" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!block;n#login#0" expanded="false" />
+                <element signature="n#!!block;n#register#0" expanded="false" />
+                <element signature="n#!!block;n#insert_pro#0" expanded="false" />
+                <element signature="n#!!block;n#remove_pro#0" expanded="false" />
+                <element signature="n#!!block;n#edit_pro#0" expanded="false" />
+                <element signature="n#!!block;n#end_edit_pro#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="1195" column="34" selection-start-line="1195" selection-start-column="34" selection-end-line="1195" selection-end-column="34" />
+            <state relative-caret-position="113">
+              <caret line="6303" column="41" selection-start-line="6303" selection-start-column="24" selection-end-line="6303" selection-end-column="41" />
               <folding>
                 <marker date="1465647937960" expanded="true" signature="19447:19452" ph="..." />
               </folding>
@@ -103,22 +102,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.min.css">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="972" column="21" selection-start-line="972" selection-start-column="21" selection-end-line="972" selection-end-column="21" />
+            <state relative-caret-position="132">
+              <caret line="104" column="28" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="lightslider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/lightslider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="270">
+              <caret line="47" column="20" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="20" />
+              <folding>
+                <element signature="e#1402#48066#0" expanded="false" />
+                <marker date="1446275298000" expanded="true" signature="15211:15305" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +156,6 @@
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
         <option value="$PROJECT_DIR$/assets/css/config.css" />
         <option value="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/parts/widgets/header/logo.php" />
@@ -163,9 +164,10 @@
         <option value="$PROJECT_DIR$/parts/navigation/top-menu-bar.php" />
         <option value="$PROJECT_DIR$/parts/navigation/sidemenu.php" />
         <option value="$PROJECT_DIR$/parts/widgets/header/search-bar.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/css/green.css" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
       </list>
     </option>
   </component>
@@ -311,7 +313,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,7 +402,7 @@
       <updated>1465449319088</updated>
       <workItem from="1465449323948" duration="2293000" />
       <workItem from="1465456986745" duration="5674000" />
-      <workItem from="1465642466058" duration="5524000" />
+      <workItem from="1465642466058" duration="7407000" />
     </task>
     <servers />
   </component>
@@ -410,11 +412,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13491000" />
+    <option name="totallyTimeSpent" value="15374000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -574,14 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/logo.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -622,22 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <marker date="1465462649050" expanded="true" signature="209:238" ph="DELETE FROM " />
-            <marker date="1465462649050" expanded="true" signature="1756:1868" ph="UPDATE produ... " />
-            <marker date="1465462649050" expanded="true" signature="3186:3296" ph="insert into product... " />
-            <marker date="1465462649050" expanded="true" signature="3607:3642" ph="select ut fr... users" />
-            <marker date="1465462649050" expanded="true" signature="3965:4000" ph="select ut fr... users" />
-            <marker date="1465462649050" expanded="true" signature="4363:4421" ph="insert into users... " />
-            <marker date="1465462649050" expanded="true" signature="4674:4722" ph="select ut fr... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parts/navigation/top-menu-bar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -670,11 +648,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/assets/js/lightslider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#1402#48066#0" expanded="false" />
+            <marker date="1446275298000" expanded="true" signature="15211:15305" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="6303" column="41" selection-start-line="6303" selection-start-column="24" selection-end-line="6303" selection-end-column="41" />
+          <folding>
+            <marker date="1465647937960" expanded="true" signature="19447:19452" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,12 +677,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+    <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="1195" column="34" selection-start-line="1195" selection-start-column="34" selection-end-line="1195" selection-end-column="34" />
+        <state relative-caret-position="17">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <marker date="1465647937960" expanded="true" signature="19447:19452" ph="..." />
+            <marker date="1465462649050" expanded="true" signature="209:238" ph="DELETE FROM " />
+            <marker date="1465462649050" expanded="true" signature="1756:1868" ph="UPDATE produ... " />
+            <marker date="1465462649050" expanded="true" signature="3186:3296" ph="insert into product... " />
+            <marker date="1465462649050" expanded="true" signature="3607:3642" ph="select ut fr... users" />
+            <marker date="1465462649050" expanded="true" signature="3965:4000" ph="select ut fr... users" />
+            <marker date="1465462649050" expanded="true" signature="4363:4421" ph="insert into users... " />
+            <marker date="1465462649050" expanded="true" signature="4674:4722" ph="select ut fr... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="203" column="24" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="n#!!block;n#register#0" expanded="false" />
+            <element signature="n#!!block;n#insert_pro#0" expanded="false" />
+            <element signature="n#!!block;n#remove_pro#0" expanded="false" />
+            <element signature="n#!!block;n#edit_pro#0" expanded="false" />
+            <element signature="n#!!block;n#end_edit_pro#0" expanded="false" />
           </folding>
         </state>
       </provider>

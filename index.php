@@ -101,6 +101,16 @@
 				require MC_ROOT.'/parts/section/header-2.php';
 			endif;
 		?>
+
+		<ul id="imageGallery">
+			<li data-thumb="uploads/digikala-logo-slogan.png" data-src="uploads/digikala-logo-slogan.png">
+				<img src="uploads/digikala-logo-slogan.png" />
+			</li>
+			<li data-thumb="uploads/digikala-logo-slogan.png" data-src="uploads/digikala-logo-slogan.png">
+				<img src="uploads/digikala-logo-slogan.png" />
+			</li>
+		</ul>
+
 		<?php require MC_ROOT.'/parts/navigation/top-menu-bar.php'; ?>
 		<?php require_once MC_ROOT.'/pages/'.$page.'.php'; ?>
 		<?php require MC_ROOT.'/parts/section/footer.php';?>
@@ -156,6 +166,7 @@
     <script src="assets/js/jquery.prettyPhoto.min.js"></script>
     <script src="assets/js/jquery.customSelect.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/lightslider.js"></script>
 	<script src="assets/js/scripts.js"></script>
 
 	<!-- For demo purposes – can be removed on production -->
