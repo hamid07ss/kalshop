@@ -15,7 +15,7 @@
                             <div class="body">
                                 <div class="label-discount clear"></div>
                                 <div class="title">
-                                    <a href="index.php?page=single-product">beats studio headphones official one</a>
+                                    <a href="index.php?page=single-product">دوربین نوکیا</a>
                                 </div>
                                 <div class="brand">beats</div>
                             </div>
@@ -43,7 +43,7 @@
                             <div class="body">
                                 <div class="label-discount clear"></div>
                                 <div class="title">
-                                    <a href="index.php?page=single-product">playstasion 4 with four games and pad</a>
+                                    <a href="index.php?page=single-product">دوربین نوکیا</a>
                                 </div>
                                 <div class="brand">acer</div>
                             </div>
@@ -70,7 +70,7 @@
                             <div class="body">
                                 <div class="label-discount clear"></div>
                                 <div class="title">
-                                    <a href="index.php?page=single-product">EOS rebel t5i DSLR Camera with 18-55mm IS STM lens</a>
+                                    <a href="index.php?page=single-product">دوربین نوکیا</a>
                                 </div>
                                 <div class="brand">canon</div>
                             </div>
@@ -100,7 +100,7 @@
                             <div class="body">
                                 <div class="label-discount clear"></div>
                                 <div class="title">
-                                    <a href="index.php?page=single-product">fitbit zip wireless activity tracker - lime</a>
+                                    <a href="index.php?page=single-product">دوربین نوکیا</a>
                                 </div>
                                 <div class="brand">fitbit zip</div>
                             </div>
@@ -127,7 +127,7 @@
                             <div class="body">
                                 <div class="label-discount clear"></div>
                                 <div class="title">
-                                    <a href="index.php?page=single-product">PowerShot elph 115 16MP digital camera</a>
+                                    <a href="index.php?page=single-product">دوربین نوکیا</a>
                                 </div>
                                 <div class="brand">canon</div>
                             </div>
@@ -154,7 +154,7 @@
                             <div class="body">
                                 <div class="label-discount clear"></div>
                                 <div class="title">
-                                    <a href="index.php?page=single-product">netbook acer travelMate b113-E-10072</a>
+                                    <a href="index.php?page=single-product">دوربین نوکیا</a>
                                 </div>
                                 <div class="brand">acer</div>
                             </div>
@@ -209,7 +209,7 @@
                     <div class="body">
                         <div class="label-discount clear"></div>
                         <div class="title">
-                            <a href="index.php?page=single-product">CPU intel core i5-4670k 3.4GHz BOX B82-12-122-41</a>
+                            <a href="index.php?page=single-product">دوربین نوکیا</a>
                         </div>
                         <div class="brand">sony</div>
                     </div>

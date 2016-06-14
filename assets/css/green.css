@@ -261,8 +261,8 @@ h2 {
 .owl-carousel:hover .owl-next:hover {
   color: #4caf50;
 }
-.owl-pagination .owl-page.active span,
-.owl-pagination .owl-page:hover span {
+.owl-pagination .owl-page.active,
+.owl-pagination .owl-page:hover {
   background: #4caf50;
 }
 .panel-group-faq .panel-faq .panel-heading .panel-title > a:after {

@@ -42,7 +42,7 @@
                                 <div class="body">
                                     <div class="label-discount green">-50% sale</div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                 </div>
@@ -71,7 +71,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">White lumia 9001</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">nokia</div>
                                 </div>
@@ -99,7 +99,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">POV Action Cam</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                 </div>
@@ -129,7 +129,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">Netbook Acer TravelMate B113-E-10072</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">acer</div>
                                 </div>
@@ -158,7 +158,7 @@
                                 <div class="body">
                                     <div class="label-discount green">-50% sale</div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                 </div>
@@ -187,7 +187,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">White lumia 9001</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">nokia</div>
                                 </div>
@@ -215,7 +215,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">POV Action Cam</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                 </div>
@@ -245,7 +245,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">Netbook Acer TravelMate B113-E-10072</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">acer</div>
                                 </div>
@@ -273,7 +273,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">POV Action Cam</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                 </div>
@@ -335,7 +335,7 @@
                                 <div class="body">
                                     <div class="label-discount green">-50% sale</div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                     <div class="excerpt">
@@ -371,7 +371,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                     <div class="excerpt">
@@ -410,7 +410,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                     <div class="excerpt">
@@ -447,7 +447,7 @@
                                 <div class="body">
                                     <div class="label-discount green">-50% sale</div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                     <div class="excerpt">
@@ -482,7 +482,7 @@
                                 <div class="body">
                                     <div class="label-discount clear"></div>
                                     <div class="title">
-                                        <a href="index.php?page=single-product">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                                     </div>
                                     <div class="brand">sony</div>
                                     <div class="excerpt">

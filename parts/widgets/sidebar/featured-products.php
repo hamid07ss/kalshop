@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
-                    <a href="#">Netbook Acer </a>
+                    <a href="#">دوربین نوکیا</a>
                     <div class="price">
                         <div class="price-prev">$2000</div>
                         <div class="price-current">$1873</div>
@@ -62,7 +62,7 @@
                     </a>
                 </div>
                 <div class="col-xs-8 col-sm-8 no-margin">
-                    <a href="#">Netbook Acer </a>
+                    <a href="#">دوربین نوکیا</a>
                     <div class="price">
                         <div class="price-prev">$2000</div>
                         <div class="price-current">$1873</div>

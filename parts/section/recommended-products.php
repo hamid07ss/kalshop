@@ -125,7 +125,7 @@
                 </div>
                 <div class="body">
                     <div class="title">
-                        <a href="index.php?page=single-product">netbook acer travel B113-E-10072</a>
+                        <a href="index.php?page=single-product">دوربین نوکیا</a>
                     </div>
                     <div class="brand">acer</div>
                 </div>

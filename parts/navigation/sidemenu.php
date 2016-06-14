@@ -2,11 +2,11 @@
 <div class="side-menu animate-dropdown">
     <div class="head">
 <!--        <i class="fa fa-list"></i> -->
-        all departments</div>
+        همه دسته بندی ها</div>
     <nav class="yamm megamenu-horizontal" role="navigation">
         <ul class="nav">
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">صفحات</a>
                 <ul class="dropdown-menu mega-menu">
                     <?php $pageChunkes = array_chunk($pages, 6, true); ?>
                     <li class="yamm-content">
@@ -38,7 +38,7 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Value of the Day</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>
@@ -47,7 +47,7 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Laptops &amp; Computers</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>                            
@@ -55,7 +55,7 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cameras &amp; Photography</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>
@@ -63,7 +63,7 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Smart Phones &amp; Tablets</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>    
@@ -71,7 +71,7 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Video Games &amp; Consoles</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>
@@ -79,7 +79,7 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">TV &amp; Audio</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>
@@ -88,7 +88,7 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gadgets</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>
@@ -96,7 +96,7 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Car Electronic &amp; GPS</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>
@@ -104,14 +104,14 @@
                 </ul>
             </li><!-- /.menu-item -->
             <li class="dropdown menu-item">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accessories</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">منوی سایت</a>
                 <ul class="dropdown-menu mega-menu">
                     <li class="yamm-content">
                         <?php require MC_ROOT.'/parts/navigation/megamenu-vertical.php';?>
                     </li>
                 </ul>
             </li><!-- /.menu-item -->
-            <li><a href="http://themeforest.net/item/media-center-electronic-ecommerce-html-template/8178892?ref=shaikrilwan">Buy this Theme</a></li>
+<!--            <li><a href="http://themeforest.net/item/media-center-electronic-ecommerce-html-template/8178892?ref=shaikrilwan">Buy this Theme</a></li>-->
         </ul><!-- /.nav -->
     </nav><!-- /.megamenu-horizontal -->
 </div><!-- /.side-menu -->

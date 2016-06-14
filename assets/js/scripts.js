@@ -200,22 +200,6 @@ function end_edit_pro() {
 
     $(document).ready(function () {
         new WOW().init();
-
-        $("#imageGallery").lightSlider({
-            // rtl:true,
-            gallery:true,
-            item:1,
-            loop:true,
-            thumbItem:9,
-            slideMargin:0,
-            enableDrag: false,
-            currentPagerPosition:'left',
-            // onSliderLoad: function(el) {
-            //     el.lightGallery({
-            //         selector: '#imageGallery .lslide'
-            //     });
-            // }
-        });
     });
 
     /*===================================================================================*/
@@ -224,8 +208,41 @@ function end_edit_pro() {
 
     $(document).ready(function () {
 
-        var dragging = true;
+        var dragging = false;
         var owlElementID = "#owl-main";
+
+
+        function customPager() {
+
+            $.each(this.owl.userItems, function (i) {
+
+                var titleData = jQuery(this).attr('title');
+                var paginationLinks = jQuery('.owl-controls .owl-pagination .owl-page span');
+
+                $(paginationLinks[i]).append(titleData);
+
+                // if($('.my_pagi').length == 0){
+                //     $('.owl-controls .owl-pagination').html('<ul class="my_pagi"><li class="owl-page active">'+ titleData +'</li></ul>');
+                // }
+                // else if(jQuery(this).attr('class') == "item last_child"){
+                //     $('.my_pagi').append('<li class="owl-page">'+ titleData +'</li></ul>');
+                // }
+                // else{
+                //     $('.my_pagi').append('<li class="owl-page">'+ titleData +'</li>');
+                // }
+                $('.owl-page').css('width' ,($('.owl-pagination').width()) / 5);
+            });
+            on_hover();
+        }
+
+        function on_hover() {
+            $('.owl-page').mouseover(function () {
+                var carousel = $(owlElementID);
+                if(!($(this).hasClass('active'))){
+                    carousel.trigger('owl.goTo', [$(this).index(), 500]);
+                }
+            });
+        }
 
         function fadeInReset() {
             if (!dragging) {
@@ -303,8 +320,12 @@ function end_edit_pro() {
         }
 
         $(owlElementID).owlCarousel({
-
-            autoPlay: 5000,
+            afterInit: customPager,
+            afterUpdate: customPager,
+            autoPlay: 3000,
+            loop: true,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
             stopOnHover: true,
             navigation: true,
             pagination: true,
@@ -313,13 +334,13 @@ function end_edit_pro() {
             transitionStyle: "fade",
             navigationText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
 
-            afterInit: function () {
-                fadeIn();
-                fadeInDown();
-                fadeInUp();
-                fadeInLeft();
-                fadeInRight();
-            },
+            // afterInit: function () {
+            //     fadeIn();
+            //     fadeInDown();
+            //     fadeInUp();
+            //     fadeInLeft();
+            //     fadeInRight();
+            // },
 
             afterMove: function () {
                 fadeIn();
@@ -329,16 +350,16 @@ function end_edit_pro() {
                 fadeInRight();
             },
 
-            afterUpdate: function () {
-                fadeIn();
-                fadeInDown();
-                fadeInUp();
-                fadeInLeft();
-                fadeInRight();
-            },
+            // afterUpdate: function () {
+            //     fadeIn();
+            //     fadeInDown();
+            //     fadeInUp();
+            //     fadeInLeft();
+            //     fadeInRight();
+            // },
 
             startDragging: function () {
-                dragging = true;
+                // dragging = true;
             },
 
             afterAction: function () {
@@ -378,7 +399,9 @@ function end_edit_pro() {
 
         $("#owl-recently-viewed").owlCarousel({
             stopOnHover: true,
-            rewindNav: true,
+            rewindNav: false,
+            loop: false,
+            rtl: true,
             items: 6,
             pagination: false,
             itemsTablet: [768, 3]
@@ -386,16 +409,17 @@ function end_edit_pro() {
 
         $("#owl-recently-viewed-2").owlCarousel({
             stopOnHover: true,
-            rewindNav: true,
+            rewindNav: false,
             items: 4,
             pagination: false,
             itemsTablet: [768, 3],
+            drag: false,
             itemsDesktopSmall: [1199, 3],
         });
 
         $("#owl-brands").owlCarousel({
             stopOnHover: true,
-            rewindNav: true,
+            rewindNav: false,
             items: 6,
             pagination: false,
             itemsTablet: [768, 4]

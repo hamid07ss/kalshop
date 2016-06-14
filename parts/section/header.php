@@ -6,10 +6,10 @@
 				<i class="well-icon"></i>سلام، خوش آمدید
 			</div>
 			<div class="phone inline">
-				<i class="login-icon"></i> ورود
+				<i class="login-icon"></i><a href="index.php?page=authentication"> ورود</a>
 			</div>
 			<div class="contact inline">
-				<i class="register-icon"></i> ثبت نام
+				<i class="register-icon"></i><a href="index.php?page=authentication"> ثبت نام</a>
 			</div>
 		</div><!-- /.contact-row -->
 

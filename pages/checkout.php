@@ -85,7 +85,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-9 ">
-                            <div class="title"><a href="#">white lumia 9001 </a></div>
+                            <div class="title"><a href="#">دوربین نوکیا </a></div>
                             <div class="brand">sony</div>
                         </div>
 
@@ -100,7 +100,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-9 ">
-                            <div class="title"><a href="#">white lumia 9001 </a></div>
+                            <div class="title"><a href="#">دوربین نوکیا </a></div>
                             <div class="brand">sony</div>
                         </div>
 
@@ -115,7 +115,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-9 ">
-                            <div class="title"><a href="#">white lumia 9001 </a></div>
+                            <div class="title"><a href="#">دوربین نوکیا </a></div>
                             <div class="brand">sony</div>
                         </div>
 

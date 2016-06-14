@@ -60,7 +60,7 @@
 	    <!-- Customizable CSS -->
 	    <link rel="stylesheet" href="assets/css/main.css">
 	    <link rel="stylesheet" href="assets/css/green.css">
-	    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+		<link rel="stylesheet" href="assets/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/css/owl.transitions.css">
 		<link rel="stylesheet" href="assets/css/animate.min.css">
 
@@ -101,16 +101,6 @@
 				require MC_ROOT.'/parts/section/header-2.php';
 			endif;
 		?>
-
-		<ul id="imageGallery">
-			<li data-thumb="uploads/digikala-logo-slogan.png" data-src="uploads/digikala-logo-slogan.png">
-				<img src="uploads/digikala-logo-slogan.png" />
-			</li>
-			<li data-thumb="uploads/digikala-logo-slogan.png" data-src="uploads/digikala-logo-slogan.png">
-				<img src="uploads/digikala-logo-slogan.png" />
-			</li>
-		</ul>
-
 		<?php require MC_ROOT.'/parts/navigation/top-menu-bar.php'; ?>
 		<?php require_once MC_ROOT.'/pages/'.$page.'.php'; ?>
 		<?php require MC_ROOT.'/parts/section/footer.php';?>
@@ -157,7 +147,7 @@
 	<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
 	<script src="assets/js/gmap3.min.js"></script>
 	<script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
 	<script src="assets/js/css_browser_selector.min.js"></script>
 	<script src="assets/js/echo.min.js"></script>
 	<script src="assets/js/jquery.easing-1.3.min.js"></script>

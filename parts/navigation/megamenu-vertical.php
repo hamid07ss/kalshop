@@ -1,6 +1,6 @@
 <!-- ================================== MEGAMENU VERTICAL ================================== -->
 <div class="row">
-    <div class="col-xs-12 col-lg-4">
+    <div class="col-xs-12 col-lg-3">
         <ul>
             <li><a href="#">Computer Cases &amp; Accessories</a></li>
             <li><a href="#">CPUs, Processors</a></li>
@@ -15,7 +15,7 @@
         </ul>
     </div>
 
-    <div class="col-xs-12 col-lg-4">
+    <div class="col-xs-12 col-lg-3">
         <ul>
             <li><a href="#">Power Supplies Power</a></li>
             <li><a href="#">Power Supply Testers Sound</a></li>

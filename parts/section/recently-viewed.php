@@ -11,8 +11,8 @@
 			<div class="title-nav">
 				<h2 class="h1">Recently Viewed</h2>
 				<div class="nav-holder">
-					<a href="#prev" data-target="#<?php echo $carouselID;?>" class="slider-prev btn-prev fa fa-angle-left"></a>
-					<a href="#next" data-target="#<?php echo $carouselID;?>" class="slider-next btn-next fa fa-angle-right"></a>
+					<a href="#next" data-target="#<?php echo $carouselID;?>" class="slider-next btn-next fa fa-angle-left"></a>
+					<a href="#prev" data-target="#<?php echo $carouselID;?>" class="slider-prev btn-prev fa fa-angle-right"></a>
 				</div>
 			</div><!-- /.title-nav -->
 
@@ -133,7 +133,7 @@
 						</div>
 						<div class="body">
 							<div class="title">
-								<a href="index.php?page=single-product">netbook acer travel B113-E-10072</a>
+								<a href="index.php?page=single-product">دوربین نوکیا</a>
 							</div>
 							<div class="brand">acer</div>
 						</div>
