@@ -54,7 +54,7 @@
         <div id="users">
             <div style="font-size: 25px;color: red;font-weight: bold;padding: 10px 0;">users</div>
             <?php
-                include("config.php");
+                require("config.php");
                 $query = "SELECT * FROM users";
                 $resualt = $conn->query($query);
                 $resualt->execute();
